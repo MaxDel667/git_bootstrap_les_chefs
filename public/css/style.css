@@ -15497,7 +15497,6 @@ readers do not read off random characters that represent icons */
 
 header .banner {
   position: absolute;
-  z-index: -1;
   filter: brightness(30%);
   -webkit-filter: brightness(30%);
 }
@@ -15514,6 +15513,7 @@ header nav .ul1 {
   margin: 10px;
   border-top: 2px white solid;
   border-bottom: 2px white solid;
+  z-index: 1;
 }
 header nav .ul1 .li1 {
   margin: 10px;
@@ -15527,6 +15527,7 @@ header nav .ul1 .li1 a:hover {
 }
 header nav .logo {
   flex-direction: row;
+  z-index: 1;
 }
 header nav .ul2 {
   list-style: none;
@@ -15535,6 +15536,7 @@ header nav .ul2 {
   margin: 10px;
   border-top: 3px white solid;
   border-bottom: 3px white solid;
+  z-index: 1;
 }
 header nav .ul2 .li2 {
   margin: 10px;
@@ -15552,6 +15554,116 @@ header .carousel-inner {
 }
 header .carousel-inner .carouse-item h1 {
   font-size: 10px;
+}
+
+#section1 {
+  display: flex;
+  background: url(../../public/images/main_bg.jpg);
+  text-align: center;
+  margin-bottom: 20px;
+}
+#section1 .story {
+  margin-top: 400px;
+}
+#section1 .story .left-top {
+  margin-right: 870px;
+  margin-left: 60px;
+}
+#section1 .story .bottom-left {
+  margin-right: 870px;
+}
+#section1 .story p {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+#section1 .story img:nth-child(1) {
+  fload: right;
+}
+#section1 .story img:nth-child(1) {
+  fload: left;
+}
+#section1 .boot {
+  margin-left: 85px;
+}
+
+.sectionform {
+  background-image: url("../../public/images/main_bg.jpg");
+  width: 100%;
+  height: 1500px;
+}
+
+.divform {
+  background-color: white;
+  height: 1350px;
+  position: relative;
+  top: 50px;
+}
+.divform .greyhautgauche {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.divform .greyhautdroite {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.divform .greybasgauche {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.divform .greybasdroite {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.formimg {
+  background-image: url(../../public/images/book_table_bg.jpg);
+  border-radius: 16px;
+  width: 65%;
+  margin: 50px 0px 50px 200px;
+}
+.formimg button {
+  border-radius: 24px;
+  margin: 10px;
+}
+.formimg input {
+  width: 300px;
+  border-radius: 16px;
+  margin: 0px 0px 10px 20px;
+}
+.formimg select {
+  width: 300px;
+  border-radius: 16px;
+  margin: 0px 0px 10px 20px;
+}
+
+.row {
+  padding: 70px;
+}
+
+.meetchef {
+  background-image: url(../../public/images/team_background.jpg);
+}
+
+.blog img {
+  border: 3px solid lightgrey;
+  border-radius: 16px;
+  margin-top: 50px;
+}
+.blog span {
+  background-color: red;
+  border-radius: 10px;
+  padding: 10px 10px;
+  position: relative;
+  left: 90px;
+  top: -15px;
+}
+
+.knowmore button {
+  border-radius: 16px;
 }
 
 /*# sourceMappingURL=style.css.map */
